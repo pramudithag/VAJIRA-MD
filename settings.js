@@ -22,10 +22,10 @@ global.mess = {
     endLimit: '`Your daily limit has expired, the limit will be reset every 12 hours`',
 }
 
-global.owner = [process.env.OWNER_NUMBER] || ['94711453097'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
+global.owner = [process.env.OWNER_NUMBER] || ['94767569908'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
 
 module.exports = {    
-SESSION_ID: process.env.SESSION_ID || 'youre session id',
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=HBNgTD7I#I8wwoDwT4hbbLa71KP2EQC7kfx0YYCZh5wXWyf8Dd4U',
 POSTGRESQL_URL: process.env.POSTGRESQL_URL || 'postgres://izumimd_meje_user:0Vhm5vKGZ7ORt2FlJBQf4d6EtRdeuE8z@dpg-cn0o2imn7f5s73fa46q0-a.frankfurt-postgres.render.com/izumimd_meje',
 PREFIX:  process.env.PREFIX || ['.'] ,
 LANG:  process.env.LANG || 'SI' ,    
